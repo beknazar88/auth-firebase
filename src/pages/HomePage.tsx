@@ -10,6 +10,8 @@ export const HomePage = () => {
   const { isAuth } = useAuth();
   const styles = useStyles();
 
+  console.log(isAuth)
+
   return isAuth ? (
     <div>
       <Container maxWidth="lg">
